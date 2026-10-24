@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Что это вам даёт: три проекта, честные деньги, безопасность</title>
+<style>
+:root{--ink:#1a2330;--muted:#5b6673;--line:#dfe4ea;--bg:#f7f8fa;--card:#fff;--accent:#1a4d8f;--accent2:#0f7b6c;--warn:#b8860b;--warnbg:#fff8e6;--free:#0f7b6c;--freebg:#e6f5f2}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+header{background:#0b3d6b;background:linear-gradient(135deg,#0b3d6b,#1a4d8f);color:#fff;padding:32px 24px}
+header .wrap{max-width:1080px;margin:0 auto}
+header .badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:4px 12px;border-radius:20px;font-size:13px;font-weight:600}
+header h1{font-size:29px;line-height:1.25;margin:14px 0 10px;font-weight:700}
+header p{font-size:16px;opacity:.92;max-width:800px}
+header .meta{font-size:14px;opacity:.8;margin-top:14px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+main{padding:32px 0 56px}
+section{margin-bottom:44px}
+h2{font-size:22px;margin-bottom:8px;font-weight:700}
+h2 + .lead{color:var(--muted);font-size:15px;margin-bottom:18px}
+h3{font-size:17px;margin:24px 0 10px;font-weight:650}
+h4{font-size:15.5px;margin:0 0 6px;color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin-bottom:16px}
+.alert{border-left:4px solid var(--warn);background:var(--warnbg);border-radius:0 8px 8px 0}
+.alert strong{color:#8a6100}
+.good{border-left:4px solid var(--accent2);background:var(--freebg);border-radius:0 8px 8px 0}
+.good strong{color:#0b5f53}
+.free-badge{display:inline-block;background:var(--freebg);color:var(--free);font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:4px;border:1px solid #bfe3dc;white-space:nowrap}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:14.5px}
+th{background:#eef1f5;text-align:left;padding:12px 14px;font-weight:650;font-size:13px;color:#3d4753;border-bottom:2px solid var(--line)}
+td{padding:12px 14px;border-bottom:1px solid #eceff2;vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr.pick{background:#f4faf8}
+.mname{font-weight:650}
+.mid{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--muted);word-break:break-all}
+.prompt{background:#f4f6f8;border:1px solid #e2e6eb;border-left:3px solid var(--accent);border-radius:0 7px 7px 0;padding:14px 16px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;color:#2b3442;margin:12px 0;white-space:pre-wrap;line-height:1.55}
+.prompt-lbl{font-size:13px;font-weight:650;color:var(--accent);margin:16px 0 4px}
+.steps{counter-reset:st;list-style:none;margin:12px 0}
+.steps li{counter-increment:st;position:relative;padding-left:38px;margin-bottom:14px}
+.steps li:before{content:counter(st);position:absolute;left:0;top:0;width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;font-size:13.5px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.check li{list-style:none;position:relative;padding-left:28px;margin-bottom:9px}
+.check li:before{content:"□";position:absolute;left:0;top:-1px;font-size:17px;color:var(--accent2);font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:16px 0}
+.mini{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:16px 18px}
+.mini p{font-size:14px;color:var(--muted)}
+ul,ol{margin:10px 0 10px 22px}
+li{margin-bottom:7px}
+a{color:var(--accent)}
+.tblwrap{overflow-x:auto;border-radius:10px;border:1px solid var(--line);background:var(--card)}
+.tblwrap table{border:none}
+footer{background:#1f2732;color:#9aa5b1;padding:26px 24px;font-size:13.5px}
+footer .wrap{max-width:1080px;margin:0 auto}
+footer a{color:#8fb4e8}
+@media(max-width:640px){header h1{font-size:23px}main{padding:24px 0 40px}th,td{padding:10px 11px;font-size:13.5px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<span class="badge">Раздаточный материал №11</span>
+<h1>Что это вам даёт: три проекта, честные деньги, безопасность</h1>
+<p>Зачем нужна собранная среда агентов — привязанная к вашим трём проектам. С разбором, чем агент отличается от обычного чата, сколько это стоит и как не вынести данные клиентов за границу.</p>
+<div class="meta">Занятие 2 · 23 октября 2026 · данные проверены 24 октября 2026</div>
+</div></header>
+
+<main class="wrap">
+
+<section>
+<div class="card good">
+<strong>Главная мысль.</strong> Вы собрали среду, в которой агент не только отвечает, но и работает: сходит на площадку, собирает данные, кладёт их в таблицу и отправляет письмом. Ниже — что именно это даёт в трёх ваших проектах и чем обычный чат отличается от агента. Этот раздел — чтобы не спрашивать себя «зачем мне это» каждый раз заново.
+</div>
+</section>
+
+<section>
+<h2>1. Чем агент отличается от обычного чата</h2>
+<p class="lead">Разница не в том, что агент «умнее». Разница в том, что у него есть руки и доступ к вашим данным.</p>
+<div class="tblwrap"><table>
+<thead><tr><th>Задание</th><th>Обычный чат-бот</th><th>Ваш агент</th></tr></thead>
+<tbody>
+<tr><td>Ответить на вопрос про тренды</td><td>Ответит по своей памяти, без источников</td><td>Найдёт в интернете, даст ссылки, соберёт в таблицу</td></tr>
+<tr><td>Собрать цены на носки за последние дни</td><td>«У меня нет доступа к маркетплейсам, соберите вручную»</td><td>Сходит через Apify, выгрузит карточки и цены в Google Таблицу</td></tr>
+<tr><td>Сделать отчёт</td><td>Напишет текст в чате</td><td>Создаст документ в Google Документах и пришлёт письмо на Gmail</td></tr>
+<tr><td>Разобрать папку файлов</td><td>Не увидит ваших файлов</td><td>Найдёт файлы на Google Диске, разложит по папкам, пустые соберёт отдельно</td></tr>
+<tr><td>Работать по расписанию</td><td>Нет, живёт только пока открыт чат</td><td>Да — на финальном занятии соберём регулярную задачу</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>2. Проект первый: бренд чулочно-носочных изделий</h2>
+<p class="lead">Это то, чем вы занимаетесь прямо сейчас и то, зачем нужен ваш первый агент.</p>
+<div class="grid">
+<div class="mini">
+<h4>Тренды</h4>
+<p>Ваш агент «Тренд-стилист» уже создан и работает на модели GLM 5.3 Flash. Он ищет в сети по вашему запросу. Спросите его: «Какие тренды в чулочно-носочных изделиях сейчас? Что появилось нового?» — и он соберёт это с источниками.</p>
+</div>
+<div class="mini">
+<h4>Цены конкурентов</h4>
+<p>На следующем занятии подключим Apify. Сценарий: собрать карточки с Wildberries и Ozon по запросу «носки» в ценовом диапазоне, выписать бренд, состав, цену, рейтинг, число отзывов — и разложить в таблицу. Дальше это сравнение с вашей карточкой.</p>
+</div>
+<div class="mini">
+<h4>Фото товара</h4>
+<p>Для правки картинок есть отдельный инструмент — Zoner AI. Маской убирается лишний предмет, пятно, не тот фон. Смотрим на следующем занятии.</p>
+</div>
+<div class="mini">
+<h4>Предметное видео</h4>
+<p>Три кадра по пять секунд: изделие в руке, раскладка по стилям, деталь. У второго кадра нужен референс, а не описание. Черновик одного кадра сделаем на занятии.</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>3. Проект второй: детская одежда и работа с клиентами</h2>
+<p class="lead">Здесь у вас уже подключён Composio — а это значит, что доступ к почте и к Instagram уже есть, осталось только включить нужное приложение.</p>
+<div class="tblwrap"><table>
+<thead><tr><th>Задача</th><th>Что сделать</th><th>Что получите</th></tr></thead>
+<tbody>
+<tr><td>Отзывы клиентов</td><td>Подключить Gmail через Composio — уже подключён</td><td>Агент выгрузит отзывы в таблицу, сгруппирует по темам, отметит повторяющиеся жалобы</td></tr>
+<tr><td>Тренды в Instagram</td><td>Composio → Apps → Instagram → Connect</td><td>Агент посмотрит рилсы и охваты в вашей нише, скажет, что набирает просмотры</td></tr>
+<tr><td>База клиентов</td><td>Тот же коннектор Gmail + Google Таблицы</td><td>Список клиентов с отметками по последнему контакту</td></tr>
+<tr><td>Запись совещания</td><td>Загрузить аудиофайл прямо в чат агента</td><td>Расшифровка на hour-long записях работает. Отдельный сервис даёт сводку: что не получилось, какие задачи в работе</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>4. Проект третий: презентации для должностных лиц</h2>
+<p class="lead">Здесь агент ценен тем, что готовит черновик, а решение принимаете вы.</p>
+<div class="tblwrap"><table>
+<thead><tr><th>Задача</th><th>Как это выглядит с агентом</th></tr></thead>
+<tbody>
+<tr><td>Собрать фактуру</td><td>«Найди данные по рынку X за последний год, разложи в таблицу: показатель, значение, источник, дата»</td></tr>
+<tr><td>Собрать черновик документа</td><td>«Собери структуру доклада по этому тексту: тезисы, аргументы, цифры, что требует уточнения»</td></tr>
+<tr><td>Проверить готовый текст</td><td>«Проверь этот доклад: где факт без источника, где оценка выдана за факт, где непонятная формулировка»</td></tr>
+<tr><td>Оформить в документ</td><td>Результат кладётся в Google Документы через подключённый коннектор</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>5. Сколько это стоит</h2>
+<p class="lead">Честный расчёт на ваших же цифрах. Данные проверены 24 октября 2026.</p>
+<div class="tblwrap"><table>
+<thead><tr><th>Статья</th><th>Сколько</th><th>Когда</th></tr></thead>
+<tbody>
+<tr class="pick"><td class="mname">Баланс OpenRouter</td><td>10 $ ≈ 7 400 ходов на GLM 5.3 Flash</td><td>На все четыре занятия хватит с запасом</td></tr>
+<tr class="pick"><td class="mname">Один рабочий ход агента</td><td>≈ 0,0014 $</td><td>Это 40 ходов в час, 0,16 $ за три часа работы</td></tr>
+<tr class="pick"><td class="mname">LobeHub, бесплатный тариф</td><td>0 $</td><td>500 000 кредитов в месяц. Хватает на тестовые прогоны</td></tr>
+<tr><td class="mname">LobeHub, тариф Starter</td><td>12,9 $ в месяц</td><td>Нужен, когда захотите хранить файлы и историю диалогов. Обсудим на финальном занятии</td></tr>
+<tr><td class="mname">Apify</td><td>0 $ — 5 $ использования в месяц, карта не нужна</td><td>На учебные прогоны достаточно</td></tr>
+<tr><td class="mname">Mirocard</td><td>≈ 8 $ за выпуск карты, далее пополнение от 5 $</td><td>Разовая трата. Комиссия 0,50–0,70 $ за операцию</td></tr>
+<tr><td class="mname">Zoner AI</td><td>0 $</td><td>Без регистрации и без карты</td></tr>
+</tbody></table></div>
+<div class="card alert">
+<strong>Где смотреть, куда ушли деньги.</strong> OpenRouter → раздел «Активность»: видно каждое списание по каждому запросу. Mirocard → главная страница → история операций: там видны комиссии. Баланс уменьшается быстрее, чем кажется, почти всегда из-за комиссий на карте, а не из-за токенов.
+</div>
+<div class="card good">
+<strong>Простая гигиена расходов.</strong> Там, где у вас есть платная подписка ChatGPT, простые вопросы задавайте там — здесь каждый запрос идёт с баланса OpenRouter. В LobeHub держите только агентов с подключёнными инструментами: ради обычных ответов на вопросы он не нужен.
+</div>
+</section>
+
+<section>
+<h2>6. Про безопасность: три уровня</h2>
+<p class="lead">Вы разобрали это на занятии. Здесь — короткая версия, чтобы вернуться к ней, когда появится документ с клиентскими данными.</p>
+<div class="tblwrap"><table>
+<thead><tr><th>Уровень</th><th>Как устроено</th><th>Что происходит с данными</th></tr></thead>
+<tbody>
+<tr><td class="mname">1. Открытые чат-сервисы</td><td>Веб-интерфейсы DeepSeek, Алисы</td><td>Диалоги сохраняются у провайдера и могут использоваться для обучения. Максимальный риск</td></tr>
+<tr class="pick"><td class="mname">2. Ключ API + своё приложение</td><td>Ваша схема: LobeHub + OpenRouter</td><td>Документ уходит на сервер агрегатора, обрабатывается и возвращается. У провайдеров с политикой «без хранения» следов не остаётся. Умеренный, управляемый риск</td></tr>
+<tr><td class="mname">3. Контур внутри страны</td><td>Российский провайдер с моделями на своих серверах</td><td>Данные не покидают контур провайдера. Минимальный риск</td></tr>
+</tbody></table></div>
+<p>По закону персональные данные клиентов нельзя передавать за границу без специального разрешения. Поэтому для документов с данными клиентов нужен третий уровень — российский провайдер. Подключается он ровно так же, как OpenRouter: регистрация, пополнение, ключ. Разница только в том, что его модели работают внутри контура. Обойдётся в 200–300 ₽ — это подключим на финальном занятии, если понадобится.</p>
+<div class="card alert">
+<strong>Практическое правило на каждый день.</strong> Документ с данными клиентов, договор, выгрузка с контактами — сначала через агента-обезличивателя, и только потом в любую нейросеть. Обезличиватель заменяет телефоны, адреса, номера карт и ФИО на плейсхолдеры. Если вам предстоит работа с такими документами — скажите, и мы поставим его на следующем занятии.
+</div>
+</section>
+
+<section>
+<h2>7. Что дальше: ваши три шага</h2>
+<ol class="steps">
+<li><strong>Спросите агента, чего ему не хватает.</strong> Формулировка, которая работает: «Каких навыков и инструментов тебе не хватает для выполнения твоих задач?» Он перечислит — и вы подключите названное по процедуре из раздатки №10.</li>
+<li><strong>Проверьте, как он работает, тестом «молча».</strong> Три вопроса подряд, без уточнений: «Какие задачи ты можешь решать?» → «Что тебе нужно, чтобы работать лучше?» → «С чего начнём?» Смотрите, какие инструменты он подключает сам.</li>
+<li><strong>Поставьте ему первую настоящую задачу.</strong> Не «придумай», а конкретную: что собрать, по каким словам, какие поля выписать, куда положить. Чем больше конкретики на входе, тем меньше агент додумывает и тем меньше токенов съедает.</li>
+</ol>
+</section>
+
+</main>
+
+<footer><div class="wrap">
+Раздаточный материал №11 · Что это вам даёт · Занятие 2, 23 октября 2026<br>
+Источники: lobehub.com/pricing · openrouter.ai · apify.com · zonerai.com · mirocard.ru<br>
+Данные проверены 24 октября 2026. Тарифы и лимиты меняются — сверяйтесь перед оплатой.
+</div></footer>
+</body>
+</html>
